@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="cdn/logo.svg">
+        </header>
+        <div class="display">
+            <aside>
+                <div class="user">
+                    <img src="cdn/face_gray.svg" alt="">
+                    <div class="user-info">
+                        <p id="nickname">Nepřihlášen</p>
+                        <p id="logout"><a href="*LOGIN_LINK_HERE*">Přihlásit se</a></p>
+                    </div>
+                </div>
+                <nav>
+                    <a href="" id="link" class="active">
+                        <img src="cdn/nav_x_white.svg" alt="">
+                        <span>Výběr úloh</span>
+                    </a>
+                    <a href="" id="link">
+                        <img src="cdn/nav_x_blue.svg" alt="">
+                        <span>Vytvořit novou úlohu</span>
+                    </a>
+                    <a href="" id="link">
+                        <img src="cdn/nav_x_blue.svg" alt="">
+                        <span>Nastavení účtu</span> <!--  TODO: Jen když je přihlášen  -->
+                    </a>
+                    <a href="" id="link">
+                        <img src="cdn/nav_x_blue.svg" alt="">
+                        <span>Ranked hra</span>
+                    </a>
+                    <a href="" id="link">
+                        <img src="cdn/nav_x_blue.svg" alt="">
+                        <span>Hraj s kamarádem</span>
+                    </a>
+                    <p id="nav-foot">
+                        <span>v.69</span>
+                        <a href="">Admin</a><!--  TODO: Jen když je admin  -->
+                        <a href="">Audit</a><!--  TODO: Jen když je admin  -->
+                    </p>
+                </nav>
+            </aside>
+            <main>
+                <h1>Admin panel</h1>
+
+                <div class="admin-options-group">
+                    <p><b>vaclav.brdek</b><button class="editbutton"></button></p>
+                    <p>vaclav.brdek@mensagymnazium.cz<button class="editbutton"></button></p>
+                </div>
+
+                <div class="admin-flex-element admin-options-group">
+                    <div>
+                        <p><b>Heslo</b></p>
+                        <p>*****<button class="editbutton"></button></p>
+                    </div>
+                    <div>
+                        <p><b>ELO</b></p>
+                        <p>9<button class="editbutton"></button></p>
+                    </div>
+                </div>
+
+                <div class="admin-options-group">
+                    <p><b>Počet vyhraných her</b></p>
+                    <p>65465415<button class="editbutton"></button></p>
+                </div>
+
+                <button class="danger admin-options-group">Zabanovat uživatele</button>
+            </main>
+        </div>
+        <script>
+
+        </script>
+    </body>
+</html>
