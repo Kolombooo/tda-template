@@ -109,6 +109,7 @@ nav #nav-foot a {
     text-decoration: underline;
 }
 
+
 button.primary {
     background: #0070BB;
     color: white;
@@ -385,4 +386,13 @@ main.center {
 
 .friendplay-icon {
     height: 100px;
+}
+
+/*
+GAME QUEUE*/
+
+.gameinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
