@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="debug-toolbox">
+    <p>Debug toolbox (do produkce odstranit)</p>
+    <button>Nalezen hráč</button>
+</div>
 <header>
     <img src="cdn/logo.svg">
 </header>
@@ -48,16 +52,30 @@
     </aside>
     <main class="center">
         <h1>Hledám dostupné protihráče...</h1>
-        <div class="sheet split-sides">
+        <div class="sheet split-sides queue-show">
             <div class="side">
-
+                <div class="user-cont-game">
+                    <div class="pfp"></div>
+                    <div class="user-data">
+                        <p class="username">tvojemama69</p>
+                        <p class="elo">ELO: 655</p>
+                        <p class="status gray">Čeká na přijetí</p>
+                    </div>
+                </div>
             </div>
             <div class="side">
-
+                <div class="user-cont-game">
+                    <div class="pfp loader"></div>
+                    <div class="user-data">
+                        <p class="username">???</p>
+                        <p class="elo">ELO: 655</p>
+                        <p class="status gray">Hledám hráče...</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="gameinfo">
-            <p>Pozice ve fontě: 1</p>
+            <p>Pozice ve frontě: 1</p>
             <p>Počet hráčů ve frontě: 1</p>
         </div>
         <div class="gametools">
