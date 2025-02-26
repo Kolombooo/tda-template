@@ -687,3 +687,58 @@ aside {
     padding: 24px;
     padding-bottom: 14px;
 }
+
+/*
+GAME ARCHIVE*/
+
+.game-placeholder {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    color: #ffffff;
+}
+
+.gamedata-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;
+    margin-bottom: 30px;
+}
+
+.gamedata-vs {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+
+}
+.player {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    img {
+        width: 20px;
+    }
+
+    p {
+        transform: translateY(-1px);
+    }
+
+}
+
+.gameresult {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    img {
+        width: 50px;
+    }
+}
